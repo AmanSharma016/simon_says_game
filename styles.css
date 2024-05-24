@@ -1,0 +1,58 @@
+.container {
+    display: flex;   
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    flex: 1;
+    height: 15rem;
+    width: 20rem;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    border: 15px solid black;
+    border-radius: 25px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+
+.first .second{
+    display: block;
+}
+.first>div{
+    display: inline-block;
+}
+
+.second>div{
+    display: inline-block;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+.flash{
+    background-color: #fff;
+}
+.error{
+    background-color: red;
+}
